@@ -1,7 +1,6 @@
 var files = [ 
-  "/final/index.html",
-  "/final/manifest.json",
-  "/final/styles/inline.css"
+  "/pwa/index.html",
+  "/pwa/manifest.json",
 ];
 
 self.addEventListener('install', function(e) {
