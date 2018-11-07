@@ -1,7 +1,6 @@
 var files = [
   "/pwa/index.html",
   "/pwa/manifest.json",
-  "/pwa/styles/inline.css"
 ];
 // dev only
 if (typeof files == 'undefined') {
@@ -10,7 +9,7 @@ if (typeof files == 'undefined') {
   files.push('./');
 }
 
-var CACHE_NAME = 'feijao-v1';
+var CACHE_NAME = 'feijao-v2';
 
 self.addEventListener('activate', function(event) {
   console.log('[SW] Activate');
